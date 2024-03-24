@@ -55,7 +55,6 @@ function findByString(str){
         for (let userKey in user) {
             componentsOfString.forEach((cp, i) => {
                 if(user[userKey].includes(cp)){
-                    console.log(`#Найдена ${cp} in ${user[userKey]}`)
                     matchUserKeys[i] = true;
                 }
             })
